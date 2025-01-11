@@ -1,0 +1,12 @@
+{
+    "Админ-панель": "admindashboard/index",
+    "Каталог": {
+        "Мои товары": "admincatalog",
+        "separator": " ",
+        "Добавить товар": "admincatalog/add"
+    },
+    "Бренды": "adminbrands/index",
+    "Переход на сайт": "home/index",
+    "Войти": "register/login",
+    "Выйти": "register/logout"
+}

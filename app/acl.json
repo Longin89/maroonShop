@@ -1,0 +1,44 @@
+{
+    "Guest": {
+        "denied": {},
+        "Home": [
+            "*"
+        ],
+        "About": [
+            "*"
+        ],
+        "Contacts": [
+            "*"
+        ],
+        "Register": [
+            "login",
+            "register"
+        ],
+        "Restricted": [
+            "*"
+        ],
+        "Catalog": [
+            "*"
+        ],
+        "Cart": [
+            "*"
+        ]
+    },
+    "LoggedIn": {
+        "denied": {
+            "Register": [
+                "login",
+                "register"
+            ]
+        },
+        "Register": [
+            "logout"
+        ]
+    },
+    "Admin": {
+        "denied": {},
+        "Admindashboard": ["*"],
+        "Admincatalog": ["*"],
+        "Adminbrands": ["*"]
+    }
+}
